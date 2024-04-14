@@ -9,10 +9,6 @@ const nextConfig = {
       },
     ],
   },
-  env: {
-    NEXT_PUBLIC_DOMAIN: "http://localhost:3000/",
-    NEXT_PUBLIC_API_DOMAIN: "http://localhost:3000/api",
-  },
 };
 
 export default nextConfig;
