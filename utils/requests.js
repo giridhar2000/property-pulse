@@ -1,6 +1,5 @@
 const apiDomain = process.env.NEXT_PUBLIC_API_DOMAIN || null;
-export const dynamic = "force-dynamic";
-export const fetchCache = "force-no-store";
+
 async function fetchProperties() {
     try {
         if(!apiDomain){
@@ -11,8 +10,9 @@ async function fetchProperties() {
             throw new Error('Failed to fetch data')
         }
         return res.json()
-    } catch (err) {
-        throw new Error(err)
+    } catch (error) {
+      console.log(error);
+      return [];
     }
 }
 
