@@ -57,7 +57,7 @@ const Navbar = () => {
         <Link href={"/"}>
           <div className="flex items-center w-full gap-3">
             <Image src={propertyLogo} alt="logo" width={40} priority />
-            <h1 className={`text-3xl`}>Property Pulse</h1>
+            <h1 className={`text-3xl`}>Realty Studios</h1>
           </div>
         </Link>
         <div className="flex items-center gap-5">
