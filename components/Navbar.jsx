@@ -95,7 +95,7 @@ const Navbar = () => {
       <div className="flex md:hidden">
         <div className="flex items-center w-full gap-3">
           <Hamburger toggled={isOpen} toggle={setOpen} />
-          <h1 className={`text-3xl`}>Property Pulse</h1>
+          <h1 className={`text-3xl`}>Realty Studios</h1>
         </div>
         <Drawer
           title="Basic Drawer"

@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import { Signika_Negative } from "next/font/google";
 
 export const metadata = {
-  title: "property-pulse",
-  discription: "Get your property easily",
+  title: "Realty Studios",
+  discription: "Canada's Real Estate Photography & Studios - Realty Stuios",
 };
 const inter = Signika_Negative({
   subsets: ["latin"],
